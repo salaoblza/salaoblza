@@ -15,6 +15,7 @@
 		<script type="text/javascript" src="./form/js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="./form/js/jquery-ui-1.8.21.custom.min.js"></script>
 <body>
+
 <?  include("./form/titulo.php");?> 
 
 <form method="post" action="./action/loginValidaAction.php">
