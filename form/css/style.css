@@ -1,0 +1,340 @@
+/*
+ * Nossa classe principal é a salaoblza. Para cada item html que desejamos personalizar e duplicar devemos ter o seguinte template:
+ * .salaoblza [.nomeSugestivoItemPersonalizado] <itemHtml> {
+ * 	 ...
+ * }
+ *
+ */
+
+.rightbottombar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 17%;
+	margin-left: 83%;
+	height: 290px;
+	margin-top: 10px;
+	-moz-border-radius: 7px;
+}
+
+.rightbottombar-titulo {
+	font-family: Verdana, Arial, Sans-serif;
+	margin-top:5%;
+	text-align: center;
+	color: #000000;
+	font-size: 130%;
+	position: relative;
+	width: 100%;
+	height: 10px;
+}
+
+.rightbottombar-texto {
+	font-family: Verdana, Arial, Sans-serif;
+	margin-left:10%;
+	text-align: left;
+	color: #000000;
+	font-size: 130%;
+	position: relative;
+	width: 90%;
+	height: 10px;
+}
+
+.titulo {
+	margin-left: 0%;
+	width: 100%;
+	text-align:center;
+	font-family: Verdana, Arial, Sans-serif;
+	color: #000000;
+	font-size: 130%;
+}
+
+.righttopbar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 17%;
+	margin-left: 83%;
+	height: 300px;
+	-moz-border-radius: 7px;
+
+}
+
+.righttopbar-img {
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 30%;
+	height: 20%;
+	border-color: #000000;
+}
+
+.centerbar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 60%;
+	margin-left: 21%;
+	height: 600px;
+	position: absolute;
+	-moz-border-radius: 7px;
+}
+
+.centerbar-img {
+	margin-left: 13%;
+	width: 60px;
+	height: 60px;
+	border-color: #000000;
+}
+
+.centerbar-campo {
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: left;
+	margin-left: 5%;
+	color: #000000;
+	font-size: 120%;
+	position: relative;
+	padding: 1px  0px 0px  0px;	
+	text-align: left;
+	width: 80%;
+	height: 10px;
+}
+
+.bottombar {
+	background: #DDDDDD	 url(fcabecalho.gif);
+	width: 100%;
+	height: 30px;
+	text-align:center;
+	position: relative;
+	-moz-border-radius: 7px;
+}
+
+.bottombar-cia {
+	top: 10px;
+	left: 41%;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+}
+
+.leftbar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 20%;
+	height: 600px;
+	position: absolute;
+	-moz-border-radius: 7px;
+}
+
+.leftbar-img {
+	list-style-type: circle;
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+	height: 33%;
+	border-style: double;
+	border-color: #000000;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	position: relative;
+
+}
+
+.leftbar-img-blza {
+	width: 100%;
+	height: 15%;
+	position: relative;
+}
+
+
+.leftbar-menu {
+	margin-top: 10%;
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: center;
+	color: #000000;
+	font-size: 150%;
+	width: 100%;
+	height: 20px;
+	position: relative;
+}
+
+.leftbar-menu-op {
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: left;
+	margin-left: 10%;
+	color: #000000;
+	font-size: 120%;
+	position: relative;
+	padding: 1px  0px 0px  0px;	
+	text-align: left;
+	width: 80%;
+	height: 10px;
+}
+
+.topbar {
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: left;
+	color: #00000;
+	font-size: 110%;
+	background: #FFFFFF url(fcabecalho.gif);
+	left center no-repeat;
+	padding: 5px  0px 5px  0px;
+	border: 1;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 39px;
+	-moz-border-radius: 7px;
+}
+
+.topbar-app {	
+	position: absolute;
+	padding: 1px  1px 0px  0px;			
+	top: 10px;
+	left: 3%;
+	text-align: left;
+	font-size: 180%;
+	width: 100px;
+	height: 20px;
+}
+
+.topbar-user {
+	position: absolute;
+	padding: 1px  1px 0px  0px;	
+	top: 10px;
+	left: 41%;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+}
+
+.topbar-time {
+	position: absolute;
+	padding: 1px  1px 0px  0px;	
+	top: 10px;
+	right: 6%;
+	text-align: right;
+	width: 250px;
+	height: 20px;
+}
+
+.topbar-out {
+	position: absolute;
+	padding: 1px  1px 0px  0px;	
+	top: 10px;
+	right: 2%;
+	text-align: right;
+	width: 40px;
+	height: 20px;
+}
+
+.topbar-img {
+	width: 150px;
+	height: 30px;
+	margin-left: 1%;
+}
+
+.loginbar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 33%;
+	margin-left: 67%;
+	height: 180px;
+	position: relative;
+	-moz-border-radius: 7px;
+}
+
+.loginbar-campos {
+	background: #DDDDDD url(fcabecalho.gif);
+	position: relative;
+	-moz-border-radius: 7px;
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 80%;
+	height: 15%;
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: right;
+	color: #000000;
+	font-size: 120%;
+	position: relative;
+}
+
+.entracebar {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 65%;
+	height: 180px;
+	position: absolute;
+	-moz-border-radius: 7px;
+}
+
+.entracebar-img {
+	background: #DDDDDD url(fcabecalho.gif);
+	margin-top: 3%;
+	margin-left: 5%;
+	width: 90%;
+	height: 129px;
+	position: absolute;
+}
+
+.leftbaratendimento {
+	background: #DDDDDD url(fcabecalho.gif);
+	width: 49%;
+	height: auto;
+	position: absolute;
+	-moz-border-radius: 7px;
+}
+
+.rightbaratendimento {
+	background: #DDDDDD url(fcabecalho.gif);
+	margin-left: 50%;
+	width: 49%;
+	height: auto;
+	position: absolute;
+	-moz-border-radius: 7px;
+}
+
+.centerimgatendimento {
+	position:relative;
+	left: 50%;
+	top: 50%;
+	margin-left:-140px;
+	margin-top:-50px;
+	width: 280px;
+	height: 100px;
+}
+
+.mensagemimgatendimento {
+	margin-left: 1%;
+	margin-bottom:-10px;
+	width: 25px;
+	height: 25px;
+}
+
+.esperaimgatendimento {
+	width: 25px;
+	height: 25px;
+}
+
+.topbaratendimento {
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: left;
+	color: #00000;
+	font-size: 110%;
+	background: #FFFFFF url(fcabecalho.gif);
+	left center no-repeat;
+	padding: 5px  0px 5px  0px;
+	border: 1;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 100px;
+	-moz-border-radius: 7px;
+}
+
+.mensagembaratendimento {
+	background: #DDDDDD url(fcabecalho.gif);
+	margin-bottom: 10px;
+	width: 100%;
+	height: 45px;
+}
+
+.mensagematendimento {
+	margin-left: 1%;
+	font-family: Verdana, Arial, Sans-serif;
+	color: #000000;
+	font-size: 130%;
+}
+
+.relogioimgatendimento {
+	width: 2px;
+	height: 2px;
+}

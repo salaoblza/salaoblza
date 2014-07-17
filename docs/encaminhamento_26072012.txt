@@ -1,0 +1,4 @@
+- remodelar o banco de dados - Mamah
+- Funcionalidades Novas:
+	1 - Atribuir serviços aos cliente) – Fabricio
+	2 - Entidade Salao de beleza - Robson
